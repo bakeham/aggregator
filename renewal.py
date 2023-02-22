@@ -46,7 +46,7 @@ def extract_domain(url) -> str:
         end = len(url) - 1
 
     return url[start + 2 : end]
-
+ 
 
 def login(url, params, headers, retry) -> str:
     try:
